@@ -1,0 +1,17 @@
+{
+  "name": "pi-apes-bot",
+  "version": "1.0.0",
+  "description": "pi apaes bot to welcom user in the group",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "soleil00",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.7"
+  }
+}
