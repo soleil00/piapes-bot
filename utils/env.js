@@ -10,6 +10,7 @@ dotenv.config()
     WELCOME_MESSAGE1: `${process.env.WELCOME_MESSAGE1}`,
     WELCOME_MESSAGE2: `${process.env.WELCOME_MESSAGE2}`,
     WELCOME_MESSAGE3: `${process.env.WELCOME_MESSAGE3}`,
+    DELETE_MESSAGE_TIMEOUT: process.env.DELETE_MESSAGE_TIMEOUT || 60000
  }
 
  module.exports = { env }

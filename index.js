@@ -34,7 +34,7 @@ ${env.WELCOME_MESSAGE3}
             .catch((error) => {
               console.error('Failed to delete message:', error);
             });
-        }, 60000);
+        }, env.DELETE_MESSAGE_TIMEOUT);
       })
       .catch((error) => {
         console.error('Failed to send message:', error);
